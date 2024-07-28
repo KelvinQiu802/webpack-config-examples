@@ -1,0 +1,19 @@
+{
+  "name": "7.PostCSS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "css-loader": "^7.1.2",
+    "postcss": "^8.4.40",
+    "postcss-loader": "^8.1.1",
+    "style-loader": "^4.0.0"
+  }
+}
