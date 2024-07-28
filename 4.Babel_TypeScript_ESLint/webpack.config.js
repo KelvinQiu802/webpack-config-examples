@@ -5,7 +5,7 @@ module.exports = {
   mode: 'development',
   devtool: false,
   resolve: {
-    extensions: ['.ts', '.js']
+    extensions: ['.ts', '.js'],
   },
   module: {
     rules: [
@@ -14,11 +14,12 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-typescript']
-          }
-        }
-      }
-    ]
+            // 相较于ts-loader，使用babel-loader无法检查类型，只能完成转译
+            presets: ['@babel/preset-typescript'],
+          },
+        },
+      },
+    ],
   },
-  plugins: [new ESLintPlluin({extensions: ['ts'], configType: 'flat'})]
-}
+  plugins: [new ESLintPlluin({ extensions: ['ts'], configType: 'flat' })],
+};
