@@ -1,0 +1,23 @@
+{
+  "name": "4.Babel_TypeScript_ESLint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.9",
+    "@babel/preset-typescript": "^7.24.7",
+    "@eslint/js": "^9.8.0",
+    "@types/eslint__js": "^8.42.3",
+    "babel-loader": "^9.1.3",
+    "eslint": "^9.8.0",
+    "eslint-webpack-plugin": "^4.2.0",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^7.17.0"
+  }
+}
