@@ -1,0 +1,10 @@
+@some: foo;
+
+div {
+  margin: if((2 > 1), 0, 3px);
+  color: if((iscolor(@some)), @some, gold);
+}
+
+::placeholder {
+  color: if((iscolor(@some)), @some, teal);
+}
