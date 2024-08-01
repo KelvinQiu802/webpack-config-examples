@@ -1,0 +1,10 @@
+@theme: 'dark';
+
+body {
+  background-color: black;
+}
+
+.container {
+  color: if(@theme = 'dark', white, black);
+  font-size: 2em;
+}

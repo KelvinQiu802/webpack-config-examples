@@ -1,0 +1,12 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic" // 自动引入React
+      }
+    ],
+    "@babel/preset-typescript"
+  ] // 先把ts转换成js，再把react转换成js，最后把es6转换成es5
+}
